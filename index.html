@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Конвертер валют</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="box">
+  <h2>💱 Конвертер валют</h2>
+
+  <select id="from">
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="UAH">UAH</option>
+    <option value="PLN">PLN</option>
+  </select>
+
+  <input type="number" id="amount" placeholder="Сума">
+
+  <select id="to">
+    <option value="UAH">UAH</option>
+    <option value="USD">USD</option>
+    <option value="EUR">EUR</option>
+    <option value="PLN">PLN</option>
+  </select>
+
+  <button onclick="convert()">Конвертувати</button>
+
+  <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
