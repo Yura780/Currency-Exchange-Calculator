@@ -16,7 +16,7 @@ async function convert() {
     const result = amount * rate;
 
     document.getElementById("result").innerText =
-      ${amount} ${from} = ${result.toFixed(2)} ${to};
+      `${amount} ${from} = ${result.toFixed(2)} ${to}`;
   } catch (error) {
     console.error(error);
     document.getElementById("result").innerText = "Помилка 😢";
